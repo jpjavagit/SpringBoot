@@ -90,19 +90,14 @@ A outra novidade é que não é necessário se preocupar com o **Servlet Contain
 
 Abaixo uma lista de Servlet Containers com suporte ao **Spring Boot**:
 
-  | Nome          | Versão        | Versão Java  |
-  | ------------- |:-------------:| ------------:|
-  | Tomcat 8      | 3.1           |   Java 7+    |
-  | Tomcat 7      | 3.0           |   Java 6+    |
-  | Jetty 9       | 3.1           |   Java 7+    |
-  | Jetty 8       | 3.0           |   Java 6+    |  
-  | Undertow 1.1  | 3.1           |   Java 7+    |
   
-|Nome   | Nome  | Nome  | Nome  | Nome  |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+|Nome             | Versão  | Versão Java  |
+|-----------------|---------|--------------|
+| Tomcat 8        |  3.1    |    Java 7+   |
+| Tomcat 7        |  3.0    |    Java 6+   |
+| Jetty 9         |  3.1    |    Java 7+   |
+| Jetty 9         |  3.0    |    Java 6+   |
+| Undertow 1.1    |  3.1    |    Java 7+   |
 
 
 Caso você queira utilizar Jetty ao invês de Tomcat adicione a dependência **spring-boot-starter-jetty** no Pom. Você pode consultar a lista de dependência de **Spring Boot Starters** no [link](http://docs.spring.io/spring-boot/docs/1.1.7.RELEASE/reference/htmlsingle/#using-boot-starter-poms).
